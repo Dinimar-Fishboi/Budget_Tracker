@@ -35,8 +35,8 @@ function checkDatabase() {
             'Content-Type': 'application/json',
           },
         })
-          .then((response) => response.json())
-          .then((res) => {
+        .then((response) => response.json())
+        .then((res) => {
             if (res.length !== 0) {
               transaction = db.transaction(['BudgetStore'], 'readwrite');
   
