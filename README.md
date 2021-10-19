@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a Progressive Web App that can be used from any device, online and offline, to track your expenses. Budget Tracker uses a combination of IndexDB and Express to function, while also functionally being mobile first. 
+This is a Progressive Web App that can be used from any device, online and offline, to track your expenses. Budget Tracker uses a combination of IndexedDB and Express to function, while also functionally being mobile first. 
 
 ## Deployed Link and Screenshots
 [Live App](https://boiling-brook-13121.herokuapp.com)
@@ -21,7 +21,7 @@ This is a Progressive Web App that can be used from any device, online and offli
 
 ## Technologies
 - Node.js
-- IndexDb
+- IndexedDb
 - Heroku
 - HTML
 - CSS
